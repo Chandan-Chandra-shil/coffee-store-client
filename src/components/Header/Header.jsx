@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -10,7 +9,7 @@ const Header = () => {
       <div className="flex gap-5 items-center  text-purple-700 font-semibold">
         <Link to="/">Home</Link>
         <Link to="/addCoffee">AddCoffee</Link>
-        <Link to="/updateCoffee">UpdateCoffee</Link>
+        <Link to="/About">About</Link>
       </div>
     </div>
   );
